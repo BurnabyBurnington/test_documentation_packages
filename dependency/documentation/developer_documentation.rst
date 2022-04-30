@@ -4,6 +4,8 @@ Developer Documentation
 ..
     rez_sphinx_help:Developer Documentation
 
+More stuff
+
 This auto-generated file is meant to be written by the developer. Please
 provide anything that could be useful to the reader such as:
 

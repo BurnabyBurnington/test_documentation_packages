@@ -4,6 +4,8 @@ User Documentation
 ..
     rez_sphinx_help:User Documentation
 
+stuff here
+
 This auto-generated file is meant to be written by the developer. Please
 provide anything that could be useful to the reader such as:
 

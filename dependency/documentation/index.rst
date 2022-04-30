@@ -12,6 +12,7 @@ Welcome to dependency's documentation!
 
    user_documentation
    developer_documentation
+   API Documentation <api/modules>
 
 
 Indices and tables

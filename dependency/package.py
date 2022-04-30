@@ -1,6 +1,6 @@
 name = "dependency"
 
-version = "1.0.0"
+version = "1.1.0"
 
 description = "A package with a Python function."
 
@@ -17,3 +17,11 @@ def commands():
     import os
 
     env.PYTHONPATH.append(os.path.join(root, "python"))
+
+
+tests = {
+    "build_documentation": {
+        "command": "rez_sphinx build run",
+        "requires": ["rez_sphinx-1"],
+    },
+}

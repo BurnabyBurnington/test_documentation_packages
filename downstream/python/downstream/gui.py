@@ -35,7 +35,7 @@ class Widget(QtWidgets.QWidget):
 
 
 class Window(QtWidgets.QMainWindow):
-    """The window which displays whenever a user calls :ref:`python -m downstream`."""
+    """The window which displays whenever a user calls ``python -m downstream``"""
 
     def __init__(self, parent=None):
         """Track a parent reference, if included.

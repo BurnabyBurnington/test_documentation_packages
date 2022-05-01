@@ -1,12 +1,19 @@
 name = "downstream"
 
-version = "1.0.0"
+version = "1.1.0"
 
 description = "A package containing reference documentation to another package."
 
 authors = ["ColinKennedy"]
 
 help = [["README", "README.rst"]]
+
+tests = {
+    "build_documentation": {
+        "command": "rez_sphinx build run",
+        "requires": ["rez_sphinx-1"],
+    },
+}
 
 private_build_requires = ["rez_build_helper-1+<2"]
 
